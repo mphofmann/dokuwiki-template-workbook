@@ -1,0 +1,85 @@
+/* TODO: this file is not up to the best standards and will be fixed after an overhaul of the form code */
+
+/**
+ * This file provides styles for forms in general and specifically
+ * for ?do=
+ *   - login
+ *   - resendpwd
+ *   - register
+ *   - profile
+ *   - subscribe
+ */
+
+/* ---------------- forms ------------------------ */
+
+form {
+  border: none;
+  display: inline;
+}
+
+label.block {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+}
+
+label.simple {
+  display: block;
+  text-align: left;
+  font-weight: normal;
+}
+
+label.block select,
+label.block input.edit {
+  width: 50%;
+}
+
+label span {
+    vertical-align: middle;
+}
+
+input.edit,
+select.edit {
+  vertical-align: middle;
+}
+select.edit {
+  padding: 0.1em 0;
+}
+
+button {
+    vertical-align: middle;
+}
+/**
+ * Styles for auth forms
+ */
+#dw__login label[for="remember__me"] {
+    margin-left: 50%;
+    margin-bottom: 1.4em;
+}
+#dw__login fieldset,
+#dw__resendpwd fieldset,
+#dw__register fieldset {
+    padding-bottom: 0.7em;
+}
+#dw__profiledelete {
+    display: block;
+    margin-top: 2.8em;
+}
+
+/**
+ * Styles for the subscription page
+ */
+
+#subscribe__form {
+    display: block;
+}
+
+#subscribe__form fieldset {
+    text-align: left;
+    margin: 0.5em 0;
+}
+
+#subscribe__form label {
+    display: block;
+    margin: 0 0.5em 0.5em;
+}
