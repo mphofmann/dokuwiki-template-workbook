@@ -1,0 +1,6 @@
+base     workbook
+author   Michael Hofmann
+email    admin@mphofmann.com
+date     2018-07-07
+name     Workbook Template
+desc     Template for workbooks
